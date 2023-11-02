@@ -3,9 +3,9 @@
 A repo that enables you to call a REST API using GET or POST at a specified interval to retreive data and update page controls. 
 
 ## A Cautionary Note
-While this script ensures that only one call is active at one time, every time this script executes a REST call is made in the background. The higher the call frequency or when calls return a large amount of data, a lot of traffic can be generated which may slow down the network for all users. API's that return a large amount of data might also impact the performance of the client browser and other applications on the client machine. Furthermore, depending on the amount or work the REST API performs to return a result, this script might also impact other operations the hosting server is required to perform. 
+While this script ensures that only one call is active at one time, every time this script executes a REST call is made in the background. At high call frequencies or when calls return a large amount of data, a lot of traffic can be generated which may slow down the network for all users. API's that return a large amount of data might also impact the performance of the client browser and other applications on the client machine. Furthermore, depending on the amount or work the REST API performs to return a result, this script might also impact other operations on the hosting server. 
 
-In order to mitigate negative impacts on users or networks as much as possible, it is advisable to:
+In order to mitigate negative impacts on users and networks as much as possible, it is advisable to:
 
 1. Call the script with the lowest possible frequency
 2. Retrieve as little data as possible from the API
