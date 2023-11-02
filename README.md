@@ -11,9 +11,8 @@ In order to mitigate negative impacts on users and networks as much as possible,
 2. Retrieve as little data as possible from the API
 3. Ensure that the REST API is able to handle the load being put on it by repeated calls
 
-## Sample applications
-This repo contains one Stadium 6.7 application that illustrates a variety of ways in which the functionality can be applied
-[LiveUpdate.sapz](Stadium6/LiveUpdate.sapz?raw=true)
+## Example uses
+https://github.com/stadium-software/live-update/assets/2085324/57608e91-1865-4107-9379-3da7769ae2b9
 
 ## GET Global Script Setup
 1. Create a Global Script called "LiveConnector"
