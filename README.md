@@ -117,4 +117,4 @@ The Callback script is the script that the "LiveConnector" script calls whenever
    6. Method (optional / default "GET")
 
 ## Consuming the returned data
-The best method for using the data returned by the API is to create a type of the data and populate an instance of that type in the callback script. This simplifies the identification of various parts of the data and makes assignment of the returned data to controls easier. 
+The script assigns the returned data to the callback script input parameter. The best method for using the data returned by the API is to create a type of the data and populate an instance of that type in the callback script. This simplifies the identification of various parts of the data and makes assignment of the returned data to controls easier. 
