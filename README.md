@@ -29,9 +29,15 @@ This repo contains one Stadium 6.7 application that illustrates a variety of way
 ```javascript
 let scope = this;
 let callback = ~.Parameters.Input.Callback;
-if (!callback) console.error("The 'callback' parameter is required");
+if (!callback) {
+    console.error("The 'callback' parameter is required");
+    return false;
+}
 let url = ~.Parameters.Input.Url;
-if (!url) console.error("The 'url' parameter is required");
+if (!url) {
+    console.error("The 'url' parameter is required");
+    return false;
+}
 let interval = ~.Parameters.Input.SecondsInterval;
 if (!interval) interval = 5;
 let body = ~.Parameters.Input.Body;
