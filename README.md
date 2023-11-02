@@ -115,3 +115,6 @@ The Callback script is the script that the "LiveConnector" script calls whenever
    4. Url (required): The URL where the REST API is located
    5. Body (optional): Any body you wish to send to the REST API when using POST
    6. Method (optional / default "GET")
+
+## Consuming the returned data
+The best method for using the data returned by the API is to create a type of the data and populate an instance of that type in the callback script. This simplifies the identification of various parts of the data and makes assignment of the returned data to controls easier. 
