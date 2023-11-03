@@ -100,7 +100,7 @@ setInterval(function () {
 ![Header Type](images/HeaderType.png)
 
 ## Callback Script Setup
-The Callback script is the script that the "LiveConnector" calls whenever it has received data back from the REST API. This is where you apply the API data and update page controls. This script lives on the page level. 
+The "LiveConnector" calls the Callbacl script every time it receives data back from the REST API. This is where you apply the API data and update page controls. This script lives on the page level. 
 
 1. Create a new script under the page you wish to keep updated (you can name this script anything you like e.g. callback)
 2. Add one input parameter to the script (you can name this parameter anything you like e.g. Data)
