@@ -12,7 +12,7 @@ In order to mitigate negative impacts on users and networks as much as possible,
 3. Ensure that the REST API is able to handle the load being put on it by repeated calls
 
 ## Example uses
-https://github.com/stadium-software/live-update/assets/2085324/14132dde-aeb0-4cf3-8055-dced6a6eb1f6
+https://github.com/stadium-software/live-update/assets/2085324/2828c864-751c-464b-a791-4d8c0ffec38a
 
 ## GET Global Script Setup
 1. Create a Global Script called "LiveConnector"
