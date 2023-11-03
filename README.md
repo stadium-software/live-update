@@ -103,7 +103,7 @@ setInterval(function () {
 The Callback script is the script that the "LiveConnector" script calls whenever it has received data back from the REST API. This is where you apply the API data and update page controls. This script lives on the page level. 
 
 1. Create a new script under the page you wish to keep updated (you can name this script anything you like e.g. callback)
-2. Add an input parameter below to the script (you can name this parameter anything you like e.g. Data)
+2. Add one input parameter to the script (you can name this parameter anything you like e.g. Data)
 
 ## Calling the global script
 1. Drag the "LiveConnector" script into the Page.Load or another event listener of your choice
