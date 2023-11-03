@@ -14,7 +14,7 @@ In order to mitigate negative impacts on users and networks as much as possible,
 ## Example uses
 https://github.com/stadium-software/live-update/assets/2085324/2828c864-751c-464b-a791-4d8c0ffec38a
 
-## GET Global Script Setup
+## Global Script Setup
 1. Create a Global Script called "LiveConnector"
 2. Add the following input parameters to the Global Script
    1. Callback
