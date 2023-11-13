@@ -63,8 +63,12 @@ if (method.toLowerCase() != "post") {
     method = "GET";
     delete requestOptions.body;
 }
-setInterval(function () { 
-  if ((page == window.location.href) && (!isRunning)) {
+const updater = setInterval(run, interval * 1000);
+function run() { 
+  if (page !== window.location.href) { 
+    clearInterval(updater);
+  }
+  if (!isRunning) {
     isRunning = true;
     fetch(url, requestOptions)
       .then(async response => {
@@ -88,7 +92,7 @@ setInterval(function () {
         isRunning = false;
       });
   }
-}, (interval * 1000));
+}
 ```
 
 ## Headers Type Setup
@@ -100,7 +104,7 @@ setInterval(function () {
 ![Header Type](images/HeaderType.png)
 
 ## Callback Script Setup
-The "LiveConnector" calls the Callbacl script every time it receives data back from the REST API. This is where you apply the API data and update page controls. This script lives on the page level. 
+The "LiveConnector" calls the Callback script every time it receives data back from the REST API. This is where you apply the API data and update page controls. This script lives on the page level. 
 
 1. Create a new script under the page you wish to keep updated (you can name this script anything you like e.g. callback)
 2. Add one input parameter to the script (you can name this parameter anything you like e.g. Data)
