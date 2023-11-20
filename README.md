@@ -14,6 +14,9 @@ In order to mitigate negative impacts on users and networks as much as possible,
 ## Example uses
 https://github.com/stadium-software/live-update/assets/2085324/2828c864-751c-464b-a791-4d8c0ffec38a
 
+## Version
+1.0
+
 ## Global Script Setup
 1. Create a Global Script called "LiveConnector"
 2. Add the following input parameters to the Global Script
@@ -26,6 +29,7 @@ https://github.com/stadium-software/live-update/assets/2085324/2828c864-751c-464
 3. Drag a *JavaScript* action into the script
 4. Add the Javascript below into the JavaScript code property (ignore the validation error message "Invalid script was detected")
 ```javascript
+/* Stadium Script Version 1.0 */
 let scope = this;
 let callback = ~.Parameters.Input.Callback;
 if (!callback) {
