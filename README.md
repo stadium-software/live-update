@@ -27,7 +27,7 @@ https://github.com/stadium-software/live-update/assets/2085324/2828c864-751c-464
    5. Body
    6. Method
 3. Drag a *JavaScript* action into the script
-4. Add the Javascript below into the JavaScript code property (ignore the validation error message "Invalid script was detected")
+4. Add the Javascript below into the JavaScript code property
 ```javascript
 /* Stadium Script Version 1.0 */
 let scope = this;
