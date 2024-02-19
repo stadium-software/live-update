@@ -29,7 +29,7 @@ https://github.com/stadium-software/live-update/assets/2085324/2828c864-751c-464
 3. Drag a *JavaScript* action into the script
 4. Add the Javascript below into the JavaScript code property
 ```javascript
-/* Stadium Script Version 1.0 */
+/* Stadium Script Version 1.0 https://github.com/stadium-software/live-update */
 let scope = this;
 let callback = ~.Parameters.Input.Callback;
 if (!callback) {
