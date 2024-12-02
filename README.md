@@ -1,5 +1,11 @@
 # Live Update
 
+**DEPRICATED**
+
+Use [simple live update](https://github.com/stadium-software/liveupdate) instead
+
+---------------------------------------------------------------------------------------------------------------
+
 A repo that enables you to call a REST API using GET or POST at a specified interval to retreive data and update page controls. 
 
 ## A Cautionary Note
