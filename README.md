@@ -1,6 +1,6 @@
 # Live Update (DEPRECATED)
 
-Use [simple live update](https://github.com/stadium-software/liveupdate) instead
+Use this simpler [live update](https://github.com/stadium-software/liveupdate) instead
 
 ---------------------------------------------------------------------------------------------------------------
 
